@@ -1,5 +1,6 @@
 var logger = require('logger').createLogger('development.log');
 var Twit = require('twit');
+var SimpleFileWriter = require('simple-file-writer');
 
 var T = new Twit({
     consumer_key:         'SuGkK8V5j57uxcl1Z32wRBwI9',
@@ -17,7 +18,13 @@ var hamilton = ['-80.2491', '43.0506', '-79.6227', '43.4705']
 
 var stream = T.stream('statuses/filter', { locations: toronto} )
 
+var counter = 0;
+
+var writer = new SimpleFileWriter('./development.log');
+
 stream.on('tweet', function (tweet) {
-    console.log(tweet)
-    logger.info(tweet);
+    console.log(tweet.place.bounding_box.coordinates);
+    counter ++
+        logger.info(counter + "," + tweet.place.bounding_box.coordinates);
+
 })
