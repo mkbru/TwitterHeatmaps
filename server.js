@@ -17,8 +17,9 @@ var york = ['-79.7756', '43.7498', '-79.1561', '44.4254']
 var durham = ['-79.3281', '43.7947', '-78.4378', '44.5170']
 var hamilton = ['-80.2491', '43.0506', '-79.6227', '43.4705']
 var newYork = ['-74.2589', '40.4774', '-73.7004', '40.9176']
+var usa = ['-125.0011', '24.9493', '-66.9326', '49.5904']
 
-var streamToronto = T.stream('statuses/filter', { locations:newYork} )
+var streamToronto = T.stream('statuses/filter', { locations:usa} )
 
 var count = 0;
 
