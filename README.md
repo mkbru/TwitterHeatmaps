@@ -35,7 +35,7 @@ Getting Started:
   <br/>
   |--    filebeats
   <br/>
-  |&nbsp;&nbsp;   | -- filebeat.yml
+  |&nbsp;&nbsp;&nbsp;   | -- filebeat.yml
   <br/>
   |
   <br/>
