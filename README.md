@@ -63,11 +63,13 @@ How to generate a live heat-map of tweets sent within the U.S.A using the ELK St
 
 11. ### Configure the Index in Kibana
 
-** Go to <localhost:5601> in your browser 
+* Go to `<localhost:5601>` in your browser 
 
-** Click "Management" 
+* Click "Management" 
 
-** Click "Create Index Pattern"
+* Enter 'twittermaps' as the index pattern
+
+* Click "Create Index Pattern"
     
 
 ![alt text](https://github.com/mikebrusilov/TwitterHeatmaps/blob/master/CreateIndexPatter.PNG)
