@@ -89,8 +89,11 @@ How to generate a live heat-map of tweets sent within the U.S.A using the ELK St
 5. ## Create the object in Elasticsearch 
 
 * Click "Dev Tools" 
+* Paste the JSON object in the console,highlight the code,click "Play"
 
-```PUT twittermaps
+
+```
+PUT twittermaps
 {
   "mappings": {
     "locality": {
@@ -102,8 +105,9 @@ How to generate a live heat-map of tweets sent within the U.S.A using the ELK St
     }
   }
 }
+
+
 ```
-* Paste the JSON object in the console,highlight the code,click "Play"
 
 ![alt text](https://github.com/mikebrusilov/TwitterHeatmaps/blob/master/CreateESObject.PNG)
 
