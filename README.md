@@ -56,10 +56,10 @@ Getting Started:
 
 10. ### Open 4 terminal/powershell windows
     
-    ###Window1: `.\Documents\elasticsearch-5.6.2\bin\elasticsearch`
-    ###Window2: `.\Documents\kibana-5.6.3-windows-x86\bin\kibana.bat`
-    ###Window3: `.\Documents\logstash-5.6.3\bin\logstash -f .\Documents\node_twitter\nodetwit.conf`
-    ###Window4: `.\Documents\filebeat-5.6.4-windows-x86_64\filebeat.exe -e -c .\Documents\filebeat-5.6.4-windows-x86_64\filebeat.yml`
+   - <b>Window1:</b> `.\Documents\elasticsearch-5.6.2\bin\elasticsearch`
+   - <b>Window2:</b> `.\Documents\kibana-5.6.3-windows-x86\bin\kibana.bat`
+   - <b>Window3:</b> `.\Documents\logstash-5.6.3\bin\logstash -f .\Documents\node_twitter\nodetwit.conf`
+   - <b>Window4:</b> `.\Documents\filebeat-5.6.4-windows-x86_64\filebeat.exe -e -c .\Documents\filebeat-5.6.4-windows-x86_64\filebeat.yml`
 
   
 
