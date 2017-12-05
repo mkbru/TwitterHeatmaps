@@ -25,7 +25,7 @@ How to generate a live heat-map of tweets sent within the U.S.A using the ELK St
   <br/>
   |--    TwitterHeatmaps
 
-Getting Started:
+# Getting Started:
 
   1. ### [Download and unzip Elasticsearch](https://www.elastic.co/downloads/elasticsearch)
   
@@ -54,12 +54,12 @@ Getting Started:
 })
 ```
 
-10. ### Open 4 terminal/powershell windows
+10. ### Open 4 terminal OR powershell windows
     
-   - <b>Window1:</b> `.\Documents\elasticsearch-5.6.2\bin\elasticsearch`
-   - <b>Window2:</b> `.\Documents\kibana-5.6.3-windows-x86\bin\kibana.bat`
-   - <b>Window3:</b> `.\Documents\logstash-5.6.3\bin\logstash -f .\Documents\node_twitter\nodetwit.conf`
-   - <b>Window4:</b> `.\Documents\filebeat-5.6.4-windows-x86_64\filebeat.exe -e -c .\Documents\filebeat-5.6.4-windows-x86_64\filebeat.yml`
+   - <b>C:\\:</b> `.\Documents\elasticsearch-5.6.2\bin\elasticsearch`
+   - <b>C:\\:</b> `.\Documents\kibana-5.6.3-windows-x86\bin\kibana.bat`
+   - <b>C:\\:</b> `.\Documents\logstash-5.6.3\bin\logstash -f .\Documents\node_twitter\nodetwit.conf`
+   - <b>C:\\:</b> `.\Documents\filebeat-5.6.4-windows-x86_64\filebeat.exe -e -c .\Documents\filebeat-5.6.4-windows-x86_64\filebeat.yml`
 
 11. ### go to localhost:5601 in your browser
   
