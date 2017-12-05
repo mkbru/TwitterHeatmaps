@@ -47,7 +47,7 @@ How to generate a live heat-map of tweets sent within the U.S.A using the ELK St
   
   - [x] [Download NodeJS](https://nodejs.org/en/download/)
   
-  - [x] Clone this Repo!!
+  - [x] Clone this Repo!! -> https://github.com/mikebrusilov/TwitterHeatmaps.git
   
   - [x] [Create a Twitter Application (follow this guide)](http://docs.inboundnow.com/guide/create-twitter-application/)
   
@@ -66,7 +66,7 @@ How to generate a live heat-map of tweets sent within the U.S.A using the ELK St
 })
 ```
 
-3. ### Open 4 Powershell terminals
+3. ### Open 4 Powershell terminals, run the following commands: 
     
    - <b>C:\\:</b> `.\Documents\elasticsearch-5.6.2\bin\elasticsearch`
    - <b>C:\\:</b> `.\Documents\kibana-5.6.3-windows-x86\bin\kibana.bat`
