@@ -25,6 +25,8 @@ How to generate a live heat-map of tweets sent within the U.S.A using the ELK St
   <br/>
   |--    /filebeats
   <br/>
+  |&nbsp;&nbsp;&nbsp;   | -- filebeat.exe
+  <br/>
   |&nbsp;&nbsp;&nbsp;   | -- filebeat.yml
   <br/>
   |
