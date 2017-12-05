@@ -1,7 +1,8 @@
 # Generating Twitter Heatmaps using ELK Stack and NodeJS
-How to generate a live heat-map of tweets sent within the U.S.A using the ELK Stack(Elasticsearch,Logstash,Kibana) and NodeJS.
+This is a "How To" on generating a live heat-map of tweets sent within the U.S.A using the ELK Stack(Elasticsearch,Logstash,Kibana) and NodeJS.
+See below for the screenshot of the final product of this guide.
 
-# Directory Structure
+# Directory Structure:
   
   /Documents
   <br/>
@@ -63,7 +64,7 @@ How to generate a live heat-map of tweets sent within the U.S.A using the ELK St
  
   1. ### <b>Replace the filebeat.yml in the filebeats directory with [filebeat.yml](https://github.com/mikebrusilov/TwitterHeatmaps/blob/master/filebeat.yml)</b>
   
-  2. ### Update the server.js file with your Twitter API credentials
+  2. ### Update the server.js file with your Twitter API credentials:
   
   ```var T = new Twit({
     consumer_key:         '',
@@ -81,7 +82,7 @@ How to generate a live heat-map of tweets sent within the U.S.A using the ELK St
    - <b>C:\\:</b> `.\Documents\logstash-5.6.3\bin\logstash -f .\Documents\TwitterHeatmaps\nodetwit.conf`
    - <b>C:\\:</b> `.\Documents\filebeat-5.6.4-windows-x86_64\filebeat.exe -e -c .\Documents\filebeat-5.6.4-windows-x86_64\filebeat.yml`
 
-4. ### Configure the Index in Kibana
+4. ### Configure the Index in Kibana:
 
 * Go to `<localhost:5601>` in your browser 
 
@@ -94,7 +95,7 @@ How to generate a live heat-map of tweets sent within the U.S.A using the ELK St
 
 ![alt text](https://github.com/mikebrusilov/TwitterHeatmaps/blob/master/CreateIndexPatter.PNG)
 
-5. ## Create the object in Elasticsearch 
+5. ### Create the object in Elasticsearch: 
 
 * Click "Dev Tools" 
 * Paste the JSON object in the console,highlight the code,click "Play"
@@ -119,16 +120,16 @@ PUT twittermaps
 
 ![alt text](https://github.com/mikebrusilov/TwitterHeatmaps/blob/master/CreateESObject.PNG)
 
-6. ## Open a new Terminal or Powershell Window, Go to the TwitterHeatmaps Directory and run: `node server.js`
+6. ### Open a new Terminal or Powershell Window, Go to the TwitterHeatmaps Directory and run: `node server.js`
 
-7. ## In Kibana, click "Discover". You should be able to see the logs input.
+7. ### In Kibana, click "Discover". You should be able to see the logs input.
 
 * Under "Available Fields" hover over "location" and click "Add"
 * Once "location" is added to "Selected Fields" click "Visualize" (We are almost there!!!)
 
 ![alt text](https://github.com/mikebrusilov/TwitterHeatmaps/blob/master/GeoLocationField.PNG)
 
-8. ## Visualize
+8. ### Visualize:
 
 * In the "Options" select "Map Type" heatmap
 * Click "Play", you should see a heatmap appear
