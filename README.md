@@ -27,6 +27,10 @@ How to generate a live heat-map of tweets sent within the U.S.A using the ELK St
 
 # Getting Started:
 
+### Prerequisites
+
+### Installing
+
   1. ### [Download and unzip Elasticsearch](https://www.elastic.co/downloads/elasticsearch)
   
   2. ### [Download and unzip Kibana](https://www.elastic.co/downloads/kibana)
@@ -41,6 +45,8 @@ How to generate a live heat-map of tweets sent within the U.S.A using the ELK St
   
   7. ### [Create a Twitter Application (follow this guide)](http://docs.inboundnow.com/guide/create-twitter-application/)
   
+ ## Deployment
+ 
   8. ### !!Replace the filebeat.yml in the filebeats directory with [filebeat.yml](https://github.com/mikebrusilov/TwitterHeatmaps/blob/master/filebeat.yml)
   
   9. ### Update the server.js file with your Twitter API credentials
