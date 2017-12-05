@@ -3,9 +3,9 @@ How to generate a live heat-map of tweets sent within the U.S.A using the ELK St
 
 Getting Started:
 
-  1.[Download and unzip Elasticsearch](https://www.elastic.co/downloads/elasticsearch)
+  1. ### [Download and unzip Elasticsearch](https://www.elastic.co/downloads/elasticsearch)
   
-  2.[Download and unzip Kibana](https://www.elastic.co/downloads/kibana)
+  2. ### [Download and unzip Kibana](https://www.elastic.co/downloads/kibana)
   
   3.[Download and unzip Logstash](https://www.elastic.co/downloads/logstash)
   
