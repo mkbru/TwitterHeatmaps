@@ -43,7 +43,18 @@ Getting Started:
   
   8. ### !!Replace the filebeat.yml in the filebeats directory with [filebeat.yml](https://github.com/mikebrusilov/TwitterHeatmaps/blob/master/filebeat.yml)
   
+  9. ### Update the server.js file with your Twitter API credentials
   
+  ```var T = new Twit({
+    consumer_key:         '',
+    consumer_secret:      '',
+    access_token:         '',
+    access_token_secret:  '',
+    timeout_ms:           60*1000,  // optional HTTP request timeout to apply to all requests.
+})```
+
+10. ### Open 4 terminal/powershell windows
+
   
 
 
