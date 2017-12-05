@@ -69,10 +69,14 @@ How to generate a live heat-map of tweets sent within the U.S.A using the ELK St
 
 * Enter 'twittermaps' as the index pattern
 
-* Click "Create Index Pattern"
+* Click "Create"
     
 
 ![alt text](https://github.com/mikebrusilov/TwitterHeatmaps/blob/master/CreateIndexPatter.PNG)
+
+12. ## Create the object in Elasticsearch 
+
+* Click "Dev Tools" 
 
 
   
