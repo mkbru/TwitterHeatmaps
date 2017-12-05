@@ -19,28 +19,37 @@ var hamilton = ['-80.2491', '43.0506', '-79.6227', '43.4705']
 var newYork = ['-74.2589', '40.4774', '-73.7004', '40.9176']
 var usa = ['-125.0011', '24.9493', '-66.9326', '49.5904']
 
-var streamToronto = T.stream('statuses/filter', { locations:usa} )
+var streamTwitter = T.stream('statuses/filter', { locations:usa} )
 
 var count = 0;
 
-var writer = new SimpleFileWriter('./development.log');
+var writer = new SimpleFileWriter('./twittermaps.log');
+writer.write("#lat,#lon")
+writer.write("\n")
 
-streamToronto.on('tweet', function (tweet) {
 
-    //console.log(tweet.place.bounding_box.coordinates);
-    count++;
-    // writer.write(
-    //     "{\"coordinates\":"+
-    //        JSON.stringify(centroid(tweet.place.bounding_box.coordinates,true))
-    //     +"}"
-    // );
-    console.log(centroid(tweet.place.bounding_box.coordinates,true) +","+centroid(tweet.place.bounding_box.coordinates,false)+","+count*10);
-    writer.write(centroid(tweet.place.bounding_box.coordinates,true) +","+centroid(tweet.place.bounding_box.coordinates,false)+","+count*10);
+streamTwitter.on('tweet', function (tweet) {
+        console.log(tweet.text);
+
+        var check  = tweet.place;
+
+        if(check) {
+            writer.write(
+            getCentroid(tweet.place.bounding_box.coordinates, true) + "," +
+            getCentroid(tweet.place.bounding_box.coordinates, false)
+            );
+        }
+
     writer.write("\n");
 })
 
+// function determineCity(lat,lon){
+//
+// }
+//
 
-function centroid(coordinates,type){
+
+function getCentroid(coordinates,type){
     var x1 = JSON.stringify(coordinates[0][0][0]); //x1
     var x2 = JSON.stringify(coordinates[0][1][0]); //x2
     var x3 = JSON.stringify(coordinates[0][2][0]); //x3
