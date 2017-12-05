@@ -7,15 +7,15 @@ Getting Started:
   
   2. ### [Download and unzip Kibana](https://www.elastic.co/downloads/kibana)
   
-  3.[Download and unzip Logstash](https://www.elastic.co/downloads/logstash)
+  3. ### [Download and unzip Logstash](https://www.elastic.co/downloads/logstash)
   
-  4.[Download and unzip Filebeat](https://www.elastic.co/downloads/beats/filebeat)
+  4. ### [Download and unzip Filebeat](https://www.elastic.co/downloads/beats/filebeat)
   
-  5.[Download NodeJS](https://nodejs.org/en/download/)
+  5. ### [Download NodeJS](https://nodejs.org/en/download/)
   
-  6.<b>Clone this Repo!!</b>
+  6. ### Clone this Repo!!
   
-  7.[Create a Twitter Application (follow this guide)](http://docs.inboundnow.com/guide/create-twitter-application/)
+  7. ### [Create a Twitter Application (follow this guide)](http://docs.inboundnow.com/guide/create-twitter-application/)
   
   # Directory Structure
   
