@@ -35,6 +35,8 @@ Getting Started:
   <br/>
   |--    filebeats
   <br/>
+  |-- | -- filebeat.yml
+  <br/>
   |
   <br/>
   |--    TwitterHeatmaps
