@@ -66,7 +66,7 @@ How to generate a live heat-map of tweets sent within the U.S.A using the ELK St
 })
 ```
 
-3. ### Open 4 terminal OR powershell windows
+3. ### Open 4 Powershell terminals
     
    - <b>C:\\:</b> `.\Documents\elasticsearch-5.6.2\bin\elasticsearch`
    - <b>C:\\:</b> `.\Documents\kibana-5.6.3-windows-x86\bin\kibana.bat`
