@@ -137,6 +137,6 @@ PUT twittermaps
 
 ![alt text](https://github.com/mikebrusilov/TwitterHeatmaps/blob/master/HeatMap.PNG)
 
-##The End.
+## The End.
 
 
