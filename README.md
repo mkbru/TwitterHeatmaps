@@ -13,7 +13,29 @@ Getting Started:
   
   5.[Download NodeJS](https://nodejs.org/en/download/)
   
+  # Directory Structure
   
+  /Documents
+  <br/>
+  |--    elasticsearch
+  <br/>
+  |
+  <br/>
+  |--    kibana
+  <br/>
+  |
+  <br/>
+  |--    logstash
+  <br/>
+  |
+  <br/>
+  |--    filebeats
+  <br/>
+  |
+  <br/>
+  |--    TwitterHeatmaps
+  
+  ### !!Replace the filebeat.yml in the filebeats directory with [filebeat.yml](https://github.com/mikebrusilov/TwitterHeatmaps/blob/master/filebeat.yml)
   
   
   
