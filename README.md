@@ -101,7 +101,7 @@ How to generate a live heat-map of tweets sent within the U.S.A using the ELK St
 
 ![alt text](https://github.com/mikebrusilov/TwitterHeatmaps/blob/master/CreateESObject.PNG)
 
-6. Open a new Terminal or Powershell Window, Go to the TwitterHeatmaps Directory and run: `node server.js`
+6. ## Open a new Terminal or Powershell Window, Go to the TwitterHeatmaps Directory and run: `node server.js`
 
 7. 
 
