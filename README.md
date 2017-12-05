@@ -78,7 +78,7 @@ How to generate a live heat-map of tweets sent within the U.S.A using the ELK St
     
    - <b>C:\\:</b> `.\Documents\elasticsearch-5.6.2\bin\elasticsearch`
    - <b>C:\\:</b> `.\Documents\kibana-5.6.3-windows-x86\bin\kibana.bat`
-   - <b>C:\\:</b> `.\Documents\logstash-5.6.3\bin\logstash -f .\Documents\node_twitter\nodetwit.conf`
+   - <b>C:\\:</b> `.\Documents\logstash-5.6.3\bin\logstash -f .\Documents\TwitterHeatmaps\nodetwit.conf`
    - <b>C:\\:</b> `.\Documents\filebeat-5.6.4-windows-x86_64\filebeat.exe -e -c .\Documents\filebeat-5.6.4-windows-x86_64\filebeat.yml`
 
 4. ### Configure the Index in Kibana
