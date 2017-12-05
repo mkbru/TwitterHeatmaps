@@ -1,4 +1,4 @@
-# TwitterHeatmap
+# Generating Twitter Heatmaps using ELK Stack and NodeJS
 How to generate a live heat-map of tweets sent within the U.S.A using the ELK Stack(Elasticsearch,Logstash,Kibana) and NodeJS.
 
 Getting Started:
