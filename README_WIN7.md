@@ -9,9 +9,7 @@ How to generate a live heat-map of tweets sent within the U.S.A using the ELK St
   <br/>
   |&nbsp;&nbsp;&nbsp;   | -- /bin
   <br/>
-  |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   | -- elasticsearch.bat
-  <br/>
-  |
+  |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  | -- elasticsearch.bat
   <br/>
   |--    /kibana
   <br/>
