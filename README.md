@@ -47,9 +47,9 @@ How to generate a live heat-map of tweets sent within the U.S.A using the ELK St
   
  ## Deployment
  
-  8. ### !!Replace the filebeat.yml in the filebeats directory with [filebeat.yml](https://github.com/mikebrusilov/TwitterHeatmaps/blob/master/filebeat.yml)
+  1. ### !!Replace the filebeat.yml in the filebeats directory with [filebeat.yml](https://github.com/mikebrusilov/TwitterHeatmaps/blob/master/filebeat.yml)
   
-  9. ### Update the server.js file with your Twitter API credentials
+  2. ### Update the server.js file with your Twitter API credentials
   
   ```var T = new Twit({
     consumer_key:         '',
@@ -60,14 +60,14 @@ How to generate a live heat-map of tweets sent within the U.S.A using the ELK St
 })
 ```
 
-10. ### Open 4 terminal OR powershell windows
+3. ### Open 4 terminal OR powershell windows
     
    - <b>C:\\:</b> `.\Documents\elasticsearch-5.6.2\bin\elasticsearch`
    - <b>C:\\:</b> `.\Documents\kibana-5.6.3-windows-x86\bin\kibana.bat`
    - <b>C:\\:</b> `.\Documents\logstash-5.6.3\bin\logstash -f .\Documents\node_twitter\nodetwit.conf`
    - <b>C:\\:</b> `.\Documents\filebeat-5.6.4-windows-x86_64\filebeat.exe -e -c .\Documents\filebeat-5.6.4-windows-x86_64\filebeat.yml`
 
-11. ### Configure the Index in Kibana
+4. ### Configure the Index in Kibana
 
 * Go to `<localhost:5601>` in your browser 
 
@@ -80,7 +80,7 @@ How to generate a live heat-map of tweets sent within the U.S.A using the ELK St
 
 ![alt text](https://github.com/mikebrusilov/TwitterHeatmaps/blob/master/CreateIndexPatter.PNG)
 
-12. ## Create the object in Elasticsearch 
+5. ## Create the object in Elasticsearch 
 
 * Click "Dev Tools" 
 
@@ -101,9 +101,9 @@ How to generate a live heat-map of tweets sent within the U.S.A using the ELK St
 
 ![alt text](https://github.com/mikebrusilov/TwitterHeatmaps/blob/master/CreateESObject.PNG)
 
-13. Open a new Terminal or Powershell Window, Go to the TwitterHeatmaps Directory and run: `node server.js`
+6. Open a new Terminal or Powershell Window, Go to the TwitterHeatmaps Directory and run: `node server.js`
 
-14. 
+7. 
 
 
 
