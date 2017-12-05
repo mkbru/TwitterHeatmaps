@@ -13,6 +13,10 @@ Getting Started:
   
   5.[Download NodeJS](https://nodejs.org/en/download/)
   
+  6.Clone this repo!!
+  
+  7.[Create a Twitter Application (follow this guide)](http://docs.inboundnow.com/guide/create-twitter-application/)
+  
   # Directory Structure
   
   /Documents
