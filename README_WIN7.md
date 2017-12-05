@@ -13,11 +13,15 @@ How to generate a live heat-map of tweets sent within the U.S.A using the ELK St
   <br/>
   |--    /kibana
   <br/>
-  |
+  |&nbsp;&nbsp;&nbsp;   | -- /bin
+  <br/>
+  |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  | -- kibana.bat
   <br/>
   |--    /logstash
   <br/>
-  |
+  |&nbsp;&nbsp;&nbsp;   | -- /bin
+  <br/>
+  |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  | -- logstash.bat
   <br/>
   |--    /filebeats
   <br/>
