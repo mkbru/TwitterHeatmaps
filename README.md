@@ -24,6 +24,12 @@ How to generate a live heat-map of tweets sent within the U.S.A using the ELK St
   |
   <br/>
   |--    TwitterHeatmaps
+  <br/>
+  |&nbsp;&nbsp;&nbsp;   | -- server.js
+  <br/>
+  |&nbsp;&nbsp;&nbsp;   | -- nodetwit.conf
+  <br/>
+  |&nbsp;&nbsp;&nbsp;   | -- filebeat.yml
 
 # Getting Started:
 
