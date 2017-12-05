@@ -128,6 +128,14 @@ PUT twittermaps
 
 ![alt text](https://github.com/mikebrusilov/TwitterHeatmaps/blob/master/GeoLocationField.PNG)
 
+8. ## Visualize
+
+* In the "Options" select "Map Type" heatmap
+* Click "Play", you should see a heatmap appear
+* You can save this visualization and add it to a Dashboard.
+* Your visualization should look like the one below:
+
+![alt text](https://github.com/mikebrusilov/TwitterHeatmaps/blob/master/HeatMap.PNG)
 
 
 
