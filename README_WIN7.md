@@ -5,25 +5,29 @@ How to generate a live heat-map of tweets sent within the U.S.A using the ELK St
   
   /Documents
   <br/>
-  |--    elasticsearch
+  |--    /elasticsearch
+  <br/>
+  |&nbsp;&nbsp;&nbsp;   | -- /bin
+  <br/>
+  |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   | -- elasticsearch.bat
   <br/>
   |
   <br/>
-  |--    kibana
+  |--    /kibana
   <br/>
   |
   <br/>
-  |--    logstash
+  |--    /logstash
   <br/>
   |
   <br/>
-  |--    filebeats
+  |--    /filebeats
   <br/>
   |&nbsp;&nbsp;&nbsp;   | -- filebeat.yml
   <br/>
   |
   <br/>
-  |--    TwitterHeatmaps
+  |--    /TwitterHeatmaps
   <br/>
   |&nbsp;&nbsp;&nbsp;   | -- server.js
   <br/>
