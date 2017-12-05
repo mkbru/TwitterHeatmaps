@@ -21,8 +21,6 @@ var usa = ['-125.0011', '24.9493', '-66.9326', '49.5904']
 
 var streamTwitter = T.stream('statuses/filter', { locations:usa} )
 
-var count = 0;
-
 var writer = new SimpleFileWriter('./twittermaps.log');
 writer.write("#lat,#lon")
 writer.write("\n")
