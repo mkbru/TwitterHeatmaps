@@ -47,7 +47,7 @@ How to generate a live heat-map of tweets sent within the U.S.A using the ELK St
   
  ## Deployment
  
-  1. ### !!Replace the filebeat.yml in the filebeats directory with [filebeat.yml](https://github.com/mikebrusilov/TwitterHeatmaps/blob/master/filebeat.yml)
+  1. ### <b>Replace the filebeat.yml in the filebeats directory with [filebeat.yml](https://github.com/mikebrusilov/TwitterHeatmaps/blob/master/filebeat.yml)</b>
   
   2. ### Update the server.js file with your Twitter API credentials
   
