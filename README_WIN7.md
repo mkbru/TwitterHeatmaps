@@ -121,10 +121,12 @@ PUT twittermaps
 
 6. ## Open a new Terminal or Powershell Window, Go to the TwitterHeatmaps Directory and run: `node server.js`
 
-7. In Kibana, click "Discover". You should be able to see the logs input.
+7. ## In Kibana, click "Discover". You should be able to see the logs input.
 
 * Under "Available Fields" hover over "location" and click "Add"
 * Once "location" is added to "Selected Fields" click "Visualize" (We are almost there!!!)
+
+![alt text](https://github.com/mikebrusilov/TwitterHeatmaps/blob/master/GeoLocationField.PNG)
 
 
 
