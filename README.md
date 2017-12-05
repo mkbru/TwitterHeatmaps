@@ -31,19 +31,19 @@ How to generate a live heat-map of tweets sent within the U.S.A using the ELK St
 
 ### Installing
 
-  1. ### [Download and unzip Elasticsearch](https://www.elastic.co/downloads/elasticsearch)
+  - [x] [Download and unzip Elasticsearch](https://www.elastic.co/downloads/elasticsearch)
   
-  2. ### [Download and unzip Kibana](https://www.elastic.co/downloads/kibana)
+  - [x] [Download and unzip Kibana](https://www.elastic.co/downloads/kibana)
   
-  3. ### [Download and unzip Logstash](https://www.elastic.co/downloads/logstash)
+  - [x] [Download and unzip Logstash](https://www.elastic.co/downloads/logstash)
   
-  4. ### [Download and unzip Filebeat](https://www.elastic.co/downloads/beats/filebeat)
+  - [x] [Download and unzip Filebeat](https://www.elastic.co/downloads/beats/filebeat)
   
-  5. ### [Download NodeJS](https://nodejs.org/en/download/)
+  - [x] [Download NodeJS](https://nodejs.org/en/download/)
   
-  6. ### Clone this Repo!!
+  - [x] Clone this Repo!!
   
-  7. ### [Create a Twitter Application (follow this guide)](http://docs.inboundnow.com/guide/create-twitter-application/)
+  - [x] [Create a Twitter Application (follow this guide)](http://docs.inboundnow.com/guide/create-twitter-application/)
   
  ## Deployment
  
