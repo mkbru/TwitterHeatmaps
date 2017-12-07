@@ -60,6 +60,8 @@ See below for the screenshot of the final product of this guide.
   
   - [x] [Create a Twitter Application (follow this guide)](http://docs.inboundnow.com/guide/create-twitter-application/)
   
+  - [x] [Java 8 is required!!!](http://www.oracle.com/technetwork/java/javase/downloads/jre8-downloads-2133155.html)
+  
  ## Deployment
  
   1. ### <b>Replace the filebeat.yml in the filebeats directory with [filebeat.yml](https://github.com/mikebrusilov/TwitterHeatmaps/blob/master/filebeat.yml)</b>
