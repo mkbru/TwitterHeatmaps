@@ -64,7 +64,7 @@ See below for the screenshot of the final product of this guide.
   
  ## Deployment
  
-  1. ### <b>Replace the filebeat.yml in the filebeats directory with [filebeat.yml](https://github.com/mikebrusilov/TwitterHeatmaps/blob/master/filebeat.yml)</b>
+  1. ### <b>Replace the ./filebeat->filebeat.yml with [filebeat.yml](https://github.com/mikebrusilov/TwitterHeatmaps/blob/master/filebeat.yml)</b>
   
   2. ### Update the server.js file with your Twitter API credentials:
   
@@ -81,7 +81,7 @@ See below for the screenshot of the final product of this guide.
     
    - <b>C:\\:</b> `.\Documents\elasticsearch-5.6.2\bin\elasticsearch`
    - <b>C:\\:</b> `.\Documents\kibana-5.6.3-windows-x86\bin\kibana.bat`
-   - <b>C:\\:</b> `.\Documents\logstash-5.6.3\bin\logstash -f .\Documents\TwitterHeatmaps\nodetwit.conf`
+   - <b>C:\\:</b> `.\Documents\logstash-5.6.3\bin\logstash -f .\Documents\TwitterHeatmaps\twitter_heatmaps_logstash.conf`
    - <b>C:\\:</b> `.\Documents\filebeat-5.6.4-windows-x86_64\filebeat.exe -e -c .\Documents\filebeat-5.6.4-windows-x86_64\filebeat.yml`
 
 4. ### Configure the Index in Kibana:
