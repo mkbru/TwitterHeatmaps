@@ -64,7 +64,7 @@ See below for the screenshot of the final product of this guide.
   
  ## Deployment
  
-  1. ### <b>Replace the filebeat.yml in the filebeats directory with [filebeat.yml](https://github.com/mikebrusilov/TwitterHeatmaps/blob/master/filebeat.yml)</b>
+  1. ### <b>Replace the ./filebeat->filebeat.yml with [filebeat.yml](https://github.com/mikebrusilov/TwitterHeatmaps/blob/master/filebeat.yml)</b>
   
   2. ### Update the server.js file with your Twitter API credentials:
   
