@@ -1,13 +1,12 @@
-var logger = require('logger').createLogger('development.log');
 var Twit = require('twit');
 var SimpleFileWriter = require('simple-file-writer');
 
 
 var T = new Twit({
-    consumer_key:         '',
-    consumer_secret:      '',
-    access_token:         '',
-    access_token_secret:  '',
+    consumer_key:         'SuGkK8V5j57uxcl1Z32wRBwI9',
+    consumer_secret:      '2m9DpxayQe0gbPDiU160fEDkDJXpw6xs6hugR4TYa6nDtSZNpT',
+    access_token:         '928272184446824448-lJuXGCwKG8AFrDkUrcRFd8OpVC8Z5Nj',
+    access_token_secret:  'LFDD0ouhSi0J1Vku7MynxZwHZYQ7JqeDKtuWhSdIrPdqp',
     timeout_ms:           60*1000,  // optional HTTP request timeout to apply to all requests.
 })
 
