@@ -131,7 +131,7 @@ PUT twittermaps
 
 ![alt text](https://github.com/mikebrusilov/TwitterHeatmaps/blob/master/GeoLocationField.PNG)
 
-8. ### Visualize:
+8. ### Create the visualization:
 
 * In the "Options" select "Map Type" heatmap
 * Click "Play", you should see a heatmap appear
