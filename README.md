@@ -56,7 +56,7 @@ See below for the screenshot of the final product of this guide.
   
   - [x] [Download NodeJS](https://nodejs.org/en/download/)
   
-  - [x] Clone this Repo!! -> https://github.com/mikebrusilov/TwitterHeatmaps.git
+  - [x] Clone this Repo!! -> https://github.com/mkbru/TwitterHeatmaps.git
   
   - [x] [Create a Twitter Application (follow this guide)](http://docs.inboundnow.com/guide/create-twitter-application/)
   
